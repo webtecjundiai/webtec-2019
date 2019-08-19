@@ -1,0 +1,26 @@
+h1{
+    color: red;
+}
+
+p{
+    background-color: pink;
+}
+
+div{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+
+.quadrado-azul{
+    background-color: #00f;
+    width: 200px;
+    height: 500px;
+}
+
+#quadrado-amarelo{
+    background-color: rgb(255, 255, 0);
+    width: 500px;
+    height: 200px;
+}
+

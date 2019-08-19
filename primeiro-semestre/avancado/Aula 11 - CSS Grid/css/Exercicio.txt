@@ -1,0 +1,3 @@
+Criar uma página web que tenha menu, banner, seção com 5 colunas e um rodapé. 
+Utilizar declaração de variáveis para o uso das cores e column-gap. Desenvolva utilizando
+Css Grid e Flexbox(flex-grid). Media Query será um diferencial :)

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-weight: bold;
+}
+header{
+    background-color: #be3e2b;
+    width: 98%;
+    height: 80px;
+    margin: 1%;
+    padding: 20px;
+}
+.anuncio{
+    background-color: #ed8a45;
+    width: 23%;
+    height: 400px;
+    margin: 1%; 
+    float: left;
+}
+.banner{
+    background-color: #ed8a45;
+    width: 73%;
+    height: 400px;
+    margin: 1%;
+    float: right;
+}
+.box{
+    background-color: #f6de6c;
+    width: 23%;
+    height: 200px;
+    float: left;
+    margin: 1%;
+}
+
+footer{
+    background-color: #be3e2b;
+    width: 98%;
+    height: 80px;
+    margin: 1%;
+    float: left;
+    /* clear: both; */
+}
