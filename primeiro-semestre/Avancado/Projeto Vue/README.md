@@ -1,4 +1,4 @@
-# Projeto Vue.js
+# Projeto Vue.js [* NÃO APLICADO DEVIDO TEMPO*]
 
 > Nas 4 últimas aulas da oficina iremos trabalhar neste projeto, à cada aula iremos incrementar nosso projeto, até a última aula que iremos publicá-lo utilizando uma ferramenta de Deploy contínuo e automatizado para sites estáticos.
 

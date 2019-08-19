@@ -21,7 +21,7 @@ console.log(contador);
 
 var colecao = {
     items: [],
-    adicionar(...add){
-
+    adicionar(value){
+        this.items.push(value)
     }
 }
