@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Desafio v4.0</title>
+  </head>
+  <body>
+    <span id="salary"></span>
+
+    <script>
+      function formatMoney(symbol, value) {
+        /*
+          Esse método 'toFixed' deixa o número com uma quantidade de casas
+          demais específica, resolvendo o problema de quando se tem mais
+          ou menos que 2 casas decimais (teste mudar o valor nas versões
+          anteriores para ver o que acontecia)
+        */
+        const formattedValue = value.toFixed(2);
+        const formattedMoney = `${symbol} ${formattedValue}`.replace(".", ",");
+
+        return formattedMoney;
+      }
+
+      const salary = formatMoney("R$", 5000);
+      document.querySelector("#salary").textContent = salary;
+    </script>
+  </body>
+</html>
