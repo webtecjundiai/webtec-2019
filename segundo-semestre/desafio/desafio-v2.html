@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Desafio v2.0</title>
+  </head>
+  <body>
+    <span id="salary"></span>
+
+    <script>
+      function formatMoney(symbol, value) {
+        /*
+          Agora a função tem 2 parâmetros, um é o símbolo e o outro é o valor
+          De modo geral essa função só serve para concatenar os dois
+        */
+        return `${symbol} ${value}`;
+      }
+
+      const salary = formatMoney("US$", 4999.99);
+      document.querySelector("#salary").textContent = salary;
+    </script>
+  </body>
+</html>
